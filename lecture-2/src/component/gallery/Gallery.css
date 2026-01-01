@@ -1,0 +1,13 @@
+.blue{
+    color: brown;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 70px;
+}
+image{
+    height: 80px;
+    width: 80px;
+}
