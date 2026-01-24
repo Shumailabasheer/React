@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Section spacing */
+.section {
+  padding: 120px 10%;
+  min-height: 100vh;
+}
+/* navbar */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #0b2c6a;
+  color: white;
+  padding: 18px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: #5ec6ff;
+}
